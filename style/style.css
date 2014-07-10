@@ -1,0 +1,75 @@
+body{
+  background-color: #eee;
+  margin: 0;
+  font-family: Helvetica, Verdana, sans-serif;
+  font-size: 1em; /* default, hoeft eigenlijk niet */
+  line-height: 1.4em; /*line height beetje ophogen, leest beter */
+  letter-spacing: -0.01em; /*ietsiepietsie afspatieëren */
+  color: #333;
+}
+a{
+  color: #333;
+}
+h1{
+  line-height: 0.95em; /*line-height in header strak zetten */
+  letter-spacing: -0.04em; /*titels iets meer afspatieëren = lekker */
+}
+
+@font-face {
+  font-family: MyHelvetica;
+  src: local("Helvetica Neue"),
+  local("HelveticaNeue"),
+  url(MgOpenModerna.ttf);
+  font-weight: normal;
+}
+
+
+body > header{
+  margin: 1em;
+}
+
+nav{
+  margin: 1em;
+}
+nav ul{
+  margin:0;
+  padding:0;
+  text-align: center;
+}
+nav ul li{
+  display: inline-block;
+}
+
+nav ul li a{
+  padding: 0.4em;
+  border-radius: 0.6em; 
+  -moz-border-radius: 0.6em; 
+  -webkit-border-radius: 0.6em;
+}
+  a.m_kindjeugdengezin:hover{background-color: #46e2ff;}
+  a.m_volwassenen:hover{background-color: #ff9ade;}
+  a.m_contact:hover{background-color: #ffdd73;}
+
+section{
+  padding: 0.4em 1em;
+  margin-bottom: 1em;
+}
+section header h1 span{
+  display:block;
+}
+section #home{
+
+}
+section#kindjeugdengezin{
+  background-color: #46e2ff; 
+}
+section#volwassenen{
+  background-color: #ff9ade;
+}
+section#contact{
+  margin: 1em;
+  background-color: #ffdd73;
+  border-radius: 2em; 
+  -moz-border-radius: 2em; 
+  -webkit-border-radius: 2em;
+}
