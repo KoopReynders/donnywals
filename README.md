@@ -24,3 +24,6 @@ Je hebt een afstudeerproject gedaan die model (zou moeten) staat voor hoe Design
 Ik hoop dat je de lat hoog gaat leggen in je professionele carrière … ik zeg London, Silicon Valley of Japan …
 
 Gefeliciteerd met je bachelor Communication & Multimedia Design
+
+Groeten
+Koop Reynders
