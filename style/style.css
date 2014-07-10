@@ -46,9 +46,6 @@ nav ul li a{
   -moz-border-radius: 0.6em; 
   -webkit-border-radius: 0.6em;
 }
-  a.m_kindjeugdengezin:hover{background-color: #46e2ff;}
-  a.m_volwassenen:hover{background-color: #ff9ade;}
-  a.m_contact:hover{background-color: #ffdd73;}
 
 section{
   padding: 0.4em 1em;
