@@ -25,20 +25,7 @@ var WEB = WEB || {}; //Namespace aanmaken
     WEB.router = {
         init: function () {
             routie({
-                'kindjeugdengezin': function() {
-                    WEB.render.page("kindjeugdengezin");
-                },
-                'volwassenen': function() {
-                    WEB.render.page("volwassenen");
-                },
-                'contact': function() {
-                    WEB.render.page("contact");
-                },
-                '*':function() { //catch all
-                    //uitvoeren als je iets onbekends tegen komt
-                    //error feedback? of de homepage?
-                    WEB.render.page("home");
-                }
+                
             });
 
         }
@@ -67,15 +54,7 @@ var WEB = WEB || {}; //Namespace aanmaken
             console.log("WEB.render.page: " +obj)
 
             switch(obj){
-                case "kindjeugdengezin":
-                    
-                    break;
-                case "volwassenen":
-                    
-                    break;
-                case "contact":
-                    
-                    break;
+               
                 default:
                     //Home page
                     console.log("Home page: ");
